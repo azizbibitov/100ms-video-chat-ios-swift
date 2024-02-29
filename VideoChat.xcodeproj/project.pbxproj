@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048D74C62B8E0FE3002B8EB9 /* VideoChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74C52B8E0FE3002B8EB9 /* VideoChatApp.swift */; };
+		048D74C82B8E0FE3002B8EB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74C72B8E0FE3002B8EB9 /* ContentView.swift */; };
+		048D74CA2B8E0FE5002B8EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048D74C92B8E0FE5002B8EB9 /* Assets.xcassets */; };
+		048D74CD2B8E0FE5002B8EB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048D74CC2B8E0FE5002B8EB9 /* Preview Assets.xcassets */; };
+		048D74D92B8E106C002B8EB9 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74D62B8E106C002B8EB9 /* ViewfinderView.swift */; };
+		048D74DA2B8E106C002B8EB9 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74D72B8E106C002B8EB9 /* Camera.swift */; };
+		048D74DB2B8E106C002B8EB9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74D82B8E106C002B8EB9 /* DataModel.swift */; };
+		048D74E42B8E10A0002B8EB9 /* VideoCallVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74DC2B8E10A0002B8EB9 /* VideoCallVM.swift */; };
+		048D74E52B8E10A0002B8EB9 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74DD2B8E10A0002B8EB9 /* CallManager.swift */; };
+		048D74E62B8E10A0002B8EB9 /* VideoRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74DE2B8E10A0002B8EB9 /* VideoRoomView.swift */; };
+		048D74E72B8E10A0002B8EB9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74DF2B8E10A0002B8EB9 /* Extension.swift */; };
+		048D74E82B8E10A0002B8EB9 /* OutgoingCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74E02B8E10A0002B8EB9 /* OutgoingCallView.swift */; };
+		048D74E92B8E10A0002B8EB9 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74E12B8E10A0002B8EB9 /* JWT.swift */; };
+		048D74EA2B8E10A0002B8EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74E22B8E10A0002B8EB9 /* AppDelegate.swift */; };
+		048D74EB2B8E10A0002B8EB9 /* ProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D74E32B8E10A0002B8EB9 /* ProviderDelegate.swift */; };
+		048D75622B9015E6002B8EB9 /* JWTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 048D75612B9015E6002B8EB9 /* JWTKit */; };
+		048D75652B901620002B8EB9 /* HMSAnalyticsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 048D75642B901620002B8EB9 /* HMSAnalyticsSDK */; };
+		048D75672B901620002B8EB9 /* HMSBroadcastExtensionSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 048D75662B901620002B8EB9 /* HMSBroadcastExtensionSDK */; };
+		048D75692B901620002B8EB9 /* HMSHLSPlayerSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 048D75682B901620002B8EB9 /* HMSHLSPlayerSDK */; };
+		048D756B2B901620002B8EB9 /* HMSRoomModels in Frameworks */ = {isa = PBXBuildFile; productRef = 048D756A2B901620002B8EB9 /* HMSRoomModels */; };
+		048D756D2B901620002B8EB9 /* HMSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 048D756C2B901620002B8EB9 /* HMSSDK */; };
+		048D756F2B901620002B8EB9 /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 048D756E2B901620002B8EB9 /* WebRTC */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048D74C22B8E0FE3002B8EB9 /* VideoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048D74C52B8E0FE3002B8EB9 /* VideoChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatApp.swift; sourceTree = "<group>"; };
+		048D74C72B8E0FE3002B8EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		048D74C92B8E0FE5002B8EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048D74CC2B8E0FE5002B8EB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048D74D32B8E0FF9002B8EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		048D74D42B8E101B002B8EB9 /* VideoChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoChat.entitlements; sourceTree = "<group>"; };
+		048D74D62B8E106C002B8EB9 /* ViewfinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		048D74D72B8E106C002B8EB9 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		048D74D82B8E106C002B8EB9 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		048D74DC2B8E10A0002B8EB9 /* VideoCallVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCallVM.swift; sourceTree = "<group>"; };
+		048D74DD2B8E10A0002B8EB9 /* CallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		048D74DE2B8E10A0002B8EB9 /* VideoRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRoomView.swift; sourceTree = "<group>"; };
+		048D74DF2B8E10A0002B8EB9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		048D74E02B8E10A0002B8EB9 /* OutgoingCallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingCallView.swift; sourceTree = "<group>"; };
+		048D74E12B8E10A0002B8EB9 /* JWT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		048D74E22B8E10A0002B8EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048D74E32B8E10A0002B8EB9 /* ProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048D74BF2B8E0FE3002B8EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048D756D2B901620002B8EB9 /* HMSSDK in Frameworks */,
+				048D75672B901620002B8EB9 /* HMSBroadcastExtensionSDK in Frameworks */,
+				048D75692B901620002B8EB9 /* HMSHLSPlayerSDK in Frameworks */,
+				048D756F2B901620002B8EB9 /* WebRTC in Frameworks */,
+				048D75622B9015E6002B8EB9 /* JWTKit in Frameworks */,
+				048D75652B901620002B8EB9 /* HMSAnalyticsSDK in Frameworks */,
+				048D756B2B901620002B8EB9 /* HMSRoomModels in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048D74B92B8E0FE3002B8EB9 = {
+			isa = PBXGroup;
+			children = (
+				048D74C42B8E0FE3002B8EB9 /* VideoChat */,
+				048D74C32B8E0FE3002B8EB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048D74C32B8E0FE3002B8EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048D74C22B8E0FE3002B8EB9 /* VideoChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048D74C42B8E0FE3002B8EB9 /* VideoChat */ = {
+			isa = PBXGroup;
+			children = (
+				048D74D42B8E101B002B8EB9 /* VideoChat.entitlements */,
+				048D74D32B8E0FF9002B8EB9 /* Info.plist */,
+				048D74C52B8E0FE3002B8EB9 /* VideoChatApp.swift */,
+				048D74E22B8E10A0002B8EB9 /* AppDelegate.swift */,
+				048D74DF2B8E10A0002B8EB9 /* Extension.swift */,
+				048D74ED2B8E1139002B8EB9 /* Utilities */,
+				048D74EC2B8E1104002B8EB9 /* Views */,
+				048D74D52B8E1064002B8EB9 /* Camera */,
+				048D74C92B8E0FE5002B8EB9 /* Assets.xcassets */,
+				048D74CB2B8E0FE5002B8EB9 /* Preview Content */,
+			);
+			path = VideoChat;
+			sourceTree = "<group>";
+		};
+		048D74CB2B8E0FE5002B8EB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				048D74CC2B8E0FE5002B8EB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048D74D52B8E1064002B8EB9 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				048D74D72B8E106C002B8EB9 /* Camera.swift */,
+				048D74D82B8E106C002B8EB9 /* DataModel.swift */,
+				048D74D62B8E106C002B8EB9 /* ViewfinderView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		048D74EC2B8E1104002B8EB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				048D74C72B8E0FE3002B8EB9 /* ContentView.swift */,
+				048D74E02B8E10A0002B8EB9 /* OutgoingCallView.swift */,
+				048D74DE2B8E10A0002B8EB9 /* VideoRoomView.swift */,
+				048D74DC2B8E10A0002B8EB9 /* VideoCallVM.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		048D74ED2B8E1139002B8EB9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				048D74DD2B8E10A0002B8EB9 /* CallManager.swift */,
+				048D74E12B8E10A0002B8EB9 /* JWT.swift */,
+				048D74E32B8E10A0002B8EB9 /* ProviderDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048D74C12B8E0FE3002B8EB9 /* VideoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048D74D02B8E0FE5002B8EB9 /* Build configuration list for PBXNativeTarget "VideoChat" */;
+			buildPhases = (
+				048D74BE2B8E0FE3002B8EB9 /* Sources */,
+				048D74BF2B8E0FE3002B8EB9 /* Frameworks */,
+				048D74C02B8E0FE3002B8EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoChat;
+			packageProductDependencies = (
+				048D75612B9015E6002B8EB9 /* JWTKit */,
+				048D75642B901620002B8EB9 /* HMSAnalyticsSDK */,
+				048D75662B901620002B8EB9 /* HMSBroadcastExtensionSDK */,
+				048D75682B901620002B8EB9 /* HMSHLSPlayerSDK */,
+				048D756A2B901620002B8EB9 /* HMSRoomModels */,
+				048D756C2B901620002B8EB9 /* HMSSDK */,
+				048D756E2B901620002B8EB9 /* WebRTC */,
+			);
+			productName = VideoChat;
+			productReference = 048D74C22B8E0FE3002B8EB9 /* VideoChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048D74BA2B8E0FE3002B8EB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					048D74C12B8E0FE3002B8EB9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 048D74BD2B8E0FE3002B8EB9 /* Build configuration list for PBXProject "VideoChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048D74B92B8E0FE3002B8EB9;
+			packageReferences = (
+				048D75602B9015E6002B8EB9 /* XCRemoteSwiftPackageReference "jwt-kit" */,
+				048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */,
+			);
+			productRefGroup = 048D74C32B8E0FE3002B8EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048D74C12B8E0FE3002B8EB9 /* VideoChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048D74C02B8E0FE3002B8EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048D74CD2B8E0FE5002B8EB9 /* Preview Assets.xcassets in Resources */,
+				048D74CA2B8E0FE5002B8EB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048D74BE2B8E0FE3002B8EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048D74EA2B8E10A0002B8EB9 /* AppDelegate.swift in Sources */,
+				048D74E72B8E10A0002B8EB9 /* Extension.swift in Sources */,
+				048D74E92B8E10A0002B8EB9 /* JWT.swift in Sources */,
+				048D74EB2B8E10A0002B8EB9 /* ProviderDelegate.swift in Sources */,
+				048D74DB2B8E106C002B8EB9 /* DataModel.swift in Sources */,
+				048D74DA2B8E106C002B8EB9 /* Camera.swift in Sources */,
+				048D74C82B8E0FE3002B8EB9 /* ContentView.swift in Sources */,
+				048D74E52B8E10A0002B8EB9 /* CallManager.swift in Sources */,
+				048D74D92B8E106C002B8EB9 /* ViewfinderView.swift in Sources */,
+				048D74E82B8E10A0002B8EB9 /* OutgoingCallView.swift in Sources */,
+				048D74E62B8E10A0002B8EB9 /* VideoRoomView.swift in Sources */,
+				048D74E42B8E10A0002B8EB9 /* VideoCallVM.swift in Sources */,
+				048D74C62B8E0FE3002B8EB9 /* VideoChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		048D74CE2B8E0FE5002B8EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048D74CF2B8E0FE5002B8EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048D74D12B8E0FE5002B8EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoChat/VideoChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoChat/Preview Content\"";
+				DEVELOPMENT_TEAM = UUP4J7FZT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azico.VideoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048D74D22B8E0FE5002B8EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoChat/VideoChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoChat/Preview Content\"";
+				DEVELOPMENT_TEAM = UUP4J7FZT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azico.VideoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048D74BD2B8E0FE3002B8EB9 /* Build configuration list for PBXProject "VideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048D74CE2B8E0FE5002B8EB9 /* Debug */,
+				048D74CF2B8E0FE5002B8EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048D74D02B8E0FE5002B8EB9 /* Build configuration list for PBXNativeTarget "VideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048D74D12B8E0FE5002B8EB9 /* Debug */,
+				048D74D22B8E0FE5002B8EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		048D75602B9015E6002B8EB9 /* XCRemoteSwiftPackageReference "jwt-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/jwt-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.13.2;
+			};
+		};
+		048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/100mslive/100ms-roomkit-models-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		048D75612B9015E6002B8EB9 /* JWTKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75602B9015E6002B8EB9 /* XCRemoteSwiftPackageReference "jwt-kit" */;
+			productName = JWTKit;
+		};
+		048D75642B901620002B8EB9 /* HMSAnalyticsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */;
+			productName = HMSAnalyticsSDK;
+		};
+		048D75662B901620002B8EB9 /* HMSBroadcastExtensionSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */;
+			productName = HMSBroadcastExtensionSDK;
+		};
+		048D75682B901620002B8EB9 /* HMSHLSPlayerSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */;
+			productName = HMSHLSPlayerSDK;
+		};
+		048D756A2B901620002B8EB9 /* HMSRoomModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */;
+			productName = HMSRoomModels;
+		};
+		048D756C2B901620002B8EB9 /* HMSSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */;
+			productName = HMSSDK;
+		};
+		048D756E2B901620002B8EB9 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048D75632B901620002B8EB9 /* XCRemoteSwiftPackageReference "100ms-roomkit-models-ios" */;
+			productName = WebRTC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 048D74BA2B8E0FE3002B8EB9 /* Project object */;
+}
